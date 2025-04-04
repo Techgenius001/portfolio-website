@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Njihia | Digital Designer & Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='60%' font-family='Exo 2' font-weight='700' font-size='80' text-anchor='middle' fill='%23FF5F1F'>S</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="container">
+        <a href="#home" class="text-logo" style="color: var(--neon-orange)"
+          >Samuel Njihia.</a
+        >
+        <button id="hamburger" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="nav-links">
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section">
+      <div class="container">
+        <h1 class="hero-title">Hi, I'm Sam.</h1>
+        <h2 class="hero-subtitle">
+          A creative digital designer and tech enthusiast
+        </h2>
+        <div class="hero-dynamic">
+          <span>I creatively </span>
+          <span id="dynamic-text"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <!-- Web Design Card -->
+          <div class="skill-card">
+            <h3>Web Design</h3>
+            <div class="skill-item">
+              <span>HTML</span>
+              <div class="progress-bar" data-percent="95%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>CSS</span>
+              <div class="progress-bar" data-percent="90%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="progress-bar" data-percent="80%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>WordPress</span>
+              <div class="progress-bar" data-percent="95%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design Card -->
+          <div class="skill-card">
+            <h3>Design & Branding</h3>
+            <div class="skill-item">
+              <span>Adobe Illustrator</span>
+              <div class="progress-bar" data-percent="75%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Adobe Photoshop</span>
+              <div class="progress-bar" data-percent="80%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Canva</span>
+              <div class="progress-bar" data-percent="95%">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="profile-img-container">
+            <img
+              src="https://i.ibb.co/LXN5PnPC/about-img.png"
+              alt="Samuel Njihia"
+              class="profile-img"
+            />
+          </div>
+          <div class="about-text">
+            <p>
+              I specialize in web design, graphic design, and AI-driven
+              automation, crafting user-friendly and visually stunning websites
+              that perform seamlessly.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1CIoB54-0Ki_WJUuHniwwEkhOsKelUHRg/view"
+              class="btn download-cv"
+              target="_blank"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <!-- Replace your To-Do List project card with this -->
+          <div class="project-card">
+            <a
+              href="https://neural-glow-tasks.lovable.app/"
+              class="project-link"
+              target="_blank"
+            >
+              <img
+                src="https://i.ibb.co/2Y8yS1Mf/To-do-list-thumbnail.png"
+                alt="Neural Glow Tasks"
+                class="project-img"
+              />
+              <div class="project-overlay">
+                <h3>Neural Glow Tasks – Smart To-Do List</h3>
+                <p>
+                  A minimalist to-do list app for organizing daily activities
+                  efficiently.
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- Project 2 -->
+          <div class="project-card">
+            <a
+              href="https://flavour-fusion-find.lovable.app/"
+              class="project-link"
+              target="_blank"
+            >
+              <img
+                src="https://i.ibb.co/rf1GLDF0/Flavour-Sync-thumbnail.png"
+                alt="FlavourSync"
+                class="project-img"
+              />
+              <div class="project-overlay">
+                <h3>FlavourSync – Smart Recipe Finder</h3>
+                <p>
+                  A web-based recipe finder app that helps users discover
+                  recipes based on ingredients they have.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+          <form
+            action="https://formspree.io/f/samuelnjihia333@gmail.com"
+            method="POST"
+            class="contact-form"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="btn submit-btn">Send Message</button>
+          </form>
+          <div class="social-links">
+            <a href="tel:+254113402373" aria-label="Call Me" class="social-link"
+              ><i class="fas fa-phone"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/samuel.njihia.5055"
+              aria-label="Facebook"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://wa.me/254113402373"
+              aria-label="WhatsApp"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://github.com/Techgenius001"
+              aria-label="GitHub"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>© <span id="year"></span> Samuel Njihia. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
